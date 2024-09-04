@@ -3,7 +3,7 @@ import numpy as np
 import plotly.express as px
 import streamlit as st
 from PIL import Image
-from streamlit_pandas_profiling import st_profile_report 
+
 
 # Load the dataset
 df = pd.read_csv("apartments_pl_2024_01.csv")
