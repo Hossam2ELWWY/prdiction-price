@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-df = pd.read_csv(r"C:\Users\Maydoum\Downloads\Compressed\apartments_pl_2024_01.csv")
+df = pd.read_csv("apartments_pl_2024_01.csv")
 df.drop(columns=['condition', 'id', 'buildingMaterial', 'collegeDistance', 'restaurantDistance'], inplace=True)
 
 # Page Title
