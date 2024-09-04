@@ -3,7 +3,7 @@ import numpy as np
 import plotly.express as px
 import streamlit as st
 from PIL import Image 
-df = pd.read_csv(r"C:\Users\Maydoum\Downloads\Compressed\apartments_pl_2024_01.csv")
+df = pd.read_csv("apartments_pl_2024_01.csv")
 df.drop(columns=['condition' , 'id' , 'buildingMaterial' , 'collegeDistance' , 'restaurantDistance'], inplace=True)
 df.drop_duplicates(inplace=True)
 df.dropna(subset=[ 'schoolDistance' , 'hasElevator','pharmacyDistance',
