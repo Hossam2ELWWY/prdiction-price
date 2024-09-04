@@ -6,7 +6,7 @@ from PIL import Image
 
 
 # Load the dataset
-df = pd.read_csv("apartments_pl_2024_01.csv")
+df = pd.read_csv("apartments_rent_pl_2024_01.csv")
 df.drop(columns=['condition', 'id', 'buildingMaterial', 'collegeDistance', 'restaurantDistance', 'longitude', 'latitude'], inplace=True)
 df.dropna(subset=['schoolDistance', 'hasElevator', 'pharmacyDistance', 'kindergartenDistance', 'postOfficeDistance', 
                   'floorCount', 'clinicDistance', 'poiCount'], inplace=True)
