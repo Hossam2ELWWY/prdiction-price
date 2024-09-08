@@ -6,3 +6,4 @@ scikit-learn==1.2.2
 streamlit==1.34.0
 category-encoders==2.6.3
 xgboost==2.1.1
+missingno==0.5.2
